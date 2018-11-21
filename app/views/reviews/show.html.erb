@@ -1,0 +1,11 @@
+<h1>Review#show</h1>
+<p>Find me in app/views/review/show.html.erb</p>
+
+<h1>
+  <%= @restaurant.name %> - Reviews
+</h1>
+<% @reviews.each do %>
+  <ul>
+    <p><%= reviews.rating  %> - <%= reviews.content  %></p>
+  </ul>
+<% end %>
